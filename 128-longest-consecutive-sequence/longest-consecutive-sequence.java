@@ -3,11 +3,12 @@ import java.util.Set;
 
 class Solution {
     public int longestConsecutive(int[] nums) {
+        // Handle the edge case of an empty or null array.
         if (nums == null || nums.length == 0) {
             return 0;
         }
 
-        // Use a HashSet for O(1) lookups and removals.
+        // 1. Create a HashSet for fast O(1) average-time lookups.
         Set<Integer> numSet = new HashSet<>();
         for (int num : nums) {
             numSet.add(num);
@@ -15,31 +16,23 @@ class Solution {
 
         int longestStreak = 0;
 
-        // Iterate through the original numbers.
-        for (int num : nums) {
-            // If the number is still in the set, it means we haven't processed it yet.
-            if (numSet.contains(num)) {
-                // Remove the number so we don't count it again.
-                numSet.remove(num);
+        // 2. Iterate through each number in the set.
+        for (int num : numSet) {
+            
+            // 3. THE KEY OPTIMIZATION:
+            // Only start a new sequence count if 'num' is the true beginning of a sequence.
+            // We know it's a start if the set does NOT contain the number just before it (num - 1).
+            if (!numSet.contains(num - 1)) {
+                int currentNum = num;
                 int currentStreak = 1;
 
-                // Search downwards for consecutive numbers.
-                int prev = num - 1;
-                while (numSet.contains(prev)) {
-                    numSet.remove(prev);
-                    currentStreak++;
-                    prev--;
+                // 4. If it's a starting number, enter the while loop to count its sequence length.
+                while (numSet.contains(currentNum + 1)) {
+                    currentNum += 1;
+                    currentStreak += 1;
                 }
 
-                // Search upwards for consecutive numbers.
-                int next = num + 1;
-                while (numSet.contains(next)) {
-                    numSet.remove(next);
-                    currentStreak++;
-                    next++;
-                }
-                
-                // Update the maximum streak found.
+                // 5. Update the overall longest streak found so far.
                 longestStreak = Math.max(longestStreak, currentStreak);
             }
         }
