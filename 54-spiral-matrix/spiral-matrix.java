@@ -75,3 +75,4 @@ class Solution {
         System.out.println(spiral); //Output: [7, 9, 6]
     }
 }
+
