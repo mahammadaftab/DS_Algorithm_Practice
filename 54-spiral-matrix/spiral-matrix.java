@@ -2,12 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
-    /**
-     * Given an m x n matrix, return all elements of the matrix in spiral order.
-     *
-     * @param matrix The input matrix.
-     * @return A list containing the elements in spiral order.
-     */
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
         if (matrix == null || matrix.length == 0) {
