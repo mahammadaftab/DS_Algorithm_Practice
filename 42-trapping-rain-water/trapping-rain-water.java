@@ -1,9 +1,6 @@
 import java.util.Arrays;
 
 class Solution {
-    /**
-     * LeetCode Problem 42: Trapping Rain Water
-     */
     public int trap(int[] height) {
         if (height == null || height.length == 0) {
             return 0;
