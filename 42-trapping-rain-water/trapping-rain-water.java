@@ -14,7 +14,7 @@ class Solution {
      * In this case, 6 units of rain water (blue section) are being trapped.
      *
      * @param height An array of non-negative integers representing the elevation map.
-     * @return The amount of water that can be trapped.
+ 
      */
     public int trap(int[] height) {
         if (height == null || height.length == 0) {
