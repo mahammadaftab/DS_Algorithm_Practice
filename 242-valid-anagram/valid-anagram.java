@@ -21,7 +21,7 @@ class Solution {
      *
      * @param s The first string.
      * @param t The second string.
-     * @return True if t is an anagram of s, false otherwise.
+
      */
     public boolean isAnagram(String s, String t) {
         // If the lengths of the strings are different, they cannot be anagrams.
