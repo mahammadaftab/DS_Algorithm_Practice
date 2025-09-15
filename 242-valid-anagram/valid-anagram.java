@@ -1,9 +1,6 @@
 import java.util.Arrays;
 
 class Solution {
-    /**
-
-     */
     public boolean isAnagram(String s, String t) {
         // If the lengths of the strings are different, they cannot be anagrams.
         if (s.length() != t.length()) {
