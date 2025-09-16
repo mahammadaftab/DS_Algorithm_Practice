@@ -17,10 +17,6 @@ class Solution {
      * Example 3:
      * Input: s = "aabb"
      * Output: -1
-     *
-     * Constraints:
-     * 1 <= s.length <= 105
-     * @return the index of the first non-repeating character, or -1 if it does not exist
      */
     public int firstUniqChar(String s) {
         // Use a HashMap to store the frequency of each character in the string.
