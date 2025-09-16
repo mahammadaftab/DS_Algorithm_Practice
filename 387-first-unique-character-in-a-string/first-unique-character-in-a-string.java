@@ -5,11 +5,6 @@ class Solution {
     /**
      * Given a string s, find the first non-repeating character in it and return its index.
      * If it does not exist, return -1.
-     *
-     * Example 1:
-     * Input: s = "leetcode"
-     * Output: 0
-    
      */
     public int firstUniqChar(String s) {
         // Use a HashMap to store the frequency of each character in the string.
