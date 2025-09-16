@@ -13,10 +13,6 @@ class Solution {
      * Example 2:
      * Input: s = "loveleetcode"
      * Output: 2
-     *
-     * Example 3:
-     * Input: s = "aabb"
-     * Output: -1
      */
     public int firstUniqChar(String s) {
         // Use a HashMap to store the frequency of each character in the string.
