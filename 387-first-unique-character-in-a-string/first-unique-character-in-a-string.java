@@ -20,9 +20,6 @@ class Solution {
      *
      * Constraints:
      * 1 <= s.length <= 105
-     * s consists of only lowercase English letters.
-     *
-     * @param s the input string
      * @return the index of the first non-repeating character, or -1 if it does not exist
      */
     public int firstUniqChar(String s) {
