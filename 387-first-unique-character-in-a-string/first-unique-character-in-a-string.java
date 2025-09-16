@@ -2,8 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
-    /**
-     */
     public int firstUniqChar(String s) {
         // Use a HashMap to store the frequency of each character in the string.
         Map<Character, Integer> charFrequencies = new HashMap<>();
