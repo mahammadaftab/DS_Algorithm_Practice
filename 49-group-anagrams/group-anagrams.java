@@ -23,9 +23,6 @@ public class Solution {
      * 1 <= strs.length <= 104
      * 0 <= strs[i].length <= 100
      * strs[i] consists of lowercase English letters.
-     *
-     * @param strs The input array of strings.
-     * @return A list of lists, where each inner list contains anagrams.
      */
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) {
