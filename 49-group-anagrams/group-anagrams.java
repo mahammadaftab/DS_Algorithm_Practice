@@ -3,7 +3,6 @@ import java.util.*;
 public class Solution {
 
     /**
-     * Given an array of strings strs, group the anagrams together. You can return the answer in any order.
      */
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) {
