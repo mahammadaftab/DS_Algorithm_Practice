@@ -10,10 +10,6 @@ public class Solution {
      * Example 1:
      * Input: strs = ["eat","tea","tan","ate","nat","bat"]
      * Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
-     *
-     * Example 2:
-     * Input: strs = [""]
-     * Output: [[""]]
      */
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) {
