@@ -14,10 +14,6 @@ public class Solution {
      * Example 2:
      * Input: strs = [""]
      * Output: [[""]]
-     *
-     * Example 3:
-     * Input: strs = ["a"]
-     * Output: [["a"]]
      */
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) {
