@@ -18,11 +18,6 @@ public class Solution {
      * Example 3:
      * Input: strs = ["a"]
      * Output: [["a"]]
-     *
-     * Constraints:
-     * 1 <= strs.length <= 104
-     * 0 <= strs[i].length <= 100
-     * strs[i] consists of lowercase English letters.
      */
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) {
