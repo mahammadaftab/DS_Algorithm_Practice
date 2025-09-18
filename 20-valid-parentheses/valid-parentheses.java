@@ -55,4 +55,4 @@ class Solution {
         System.out.println(s7 + ": " + solution.isValid(s7)); // Output: true 
     }
 }
-//mahammad
+//I Love Muhammad
