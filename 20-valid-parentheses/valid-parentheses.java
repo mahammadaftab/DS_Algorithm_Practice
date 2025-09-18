@@ -1,8 +1,6 @@
 import java.util.Stack;
 
 class Solution {
-    /**
-     */
     public boolean isValid(String s) {
         // Use a stack to keep track of opening parentheses.
         Stack<Character> stack = new Stack<>();
