@@ -2,7 +2,6 @@ import java.util.Stack;
 
 class Solution {
     /**
-     * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
      */
     public boolean isValid(String s) {
         // Use a stack to keep track of opening parentheses.
