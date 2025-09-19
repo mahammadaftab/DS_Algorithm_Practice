@@ -8,8 +8,6 @@ class Solution {
      * Note: "aba" is also a valid answer.
      *
      * Example 2:
-     * Input: s = "cbbd"
-     * Output: "bb"
      */
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
