@@ -46,8 +46,6 @@ class Solution {
      * Helper function to expand around the center and find the length of the palindrome.
      * @param s The input string.
      * @param left The left index.
-     * @param right The right index.
-     * @return The length of the palindrome.
      */
     private int expandAroundCenter(String s, int left, int right) {
         int L = left;
