@@ -1,7 +1,5 @@
 class Solution {
     /**
-     * Given a string s, find the longest palindromic substring in s.
-     *
      */
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
