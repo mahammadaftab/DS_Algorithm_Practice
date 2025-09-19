@@ -6,8 +6,6 @@ class Solution {
      * Input: s = "babad"
      * Output: "bab"
      * Note: "aba" is also a valid answer.
-     *
-     * Example 2:
      */
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
