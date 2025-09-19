@@ -42,8 +42,6 @@ class Solution {
         return s.substring(start, end + 1);
     }
 
-    /**
-     */
     private int expandAroundCenter(String s, int left, int right) {
         int L = left;
         int R = right;
