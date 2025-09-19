@@ -10,8 +10,6 @@ class Solution {
      * Example 2:
      * Input: s = "cbbd"
      * Output: "bb"
-     *
-     * Constraints:
      */
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
