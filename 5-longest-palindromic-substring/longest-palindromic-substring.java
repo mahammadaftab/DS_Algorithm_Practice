@@ -56,3 +56,5 @@ class Solution {
         System.out.println("Longest palindrome in '" + s4 + "': " + result4); // Expected: a or c
     }
 }
+
+
