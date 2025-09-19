@@ -12,11 +12,6 @@ class Solution {
      * Output: "bb"
      *
      * Constraints:
-     * 1 <= s.length <= 1000
-     * s consist of only digits and English letters.
-     *
-     * @param s The input string.
-     * @return The longest palindromic substring.
      */
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
