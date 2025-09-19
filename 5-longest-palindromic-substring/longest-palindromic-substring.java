@@ -2,10 +2,6 @@ class Solution {
     /**
      * Given a string s, find the longest palindromic substring in s.
      *
-     * Example 1:
-     * Input: s = "babad"
-     * Output: "bab"
-     * Note: "aba" is also a valid answer.
      */
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
