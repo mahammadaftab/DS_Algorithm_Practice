@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 class Solution {
     /**
-     * LeetCode Problem 14: Longest Common Prefix
      */
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
