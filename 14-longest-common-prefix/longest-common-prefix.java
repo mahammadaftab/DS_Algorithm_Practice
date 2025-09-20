@@ -17,7 +17,6 @@ class Solution {
      * Output: ""
      * Explanation: There is no common prefix among the input strings.
      *
-     * Constraints:
      */
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
