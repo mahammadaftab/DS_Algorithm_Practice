@@ -21,9 +21,6 @@ class Solution {
      * 1 <= strs.length <= 200
      * 0 <= strs[i].length <= 200
      * strs[i] consists of only lowercase English letters.
-     *
-     * @param strs An array of strings.
-     * @return The longest common prefix string.
      */
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
