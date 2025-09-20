@@ -3,9 +3,6 @@ import java.util.Arrays;
 class Solution {
     /**
      * LeetCode Problem 14: Longest Common Prefix
-     *
-     * Find the longest common prefix string amongst an array of strings.
-     *
      */
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
