@@ -6,14 +6,6 @@ class Solution {
      *
      * Find the longest common prefix string amongst an array of strings.
      *
-     * If there is no common prefix, return an empty string "".
-     *
-     * Example 1:
-     * Input: strs = ["flower","flow","flight"]
-     * Output: "fl"
-     *
-     * Example 2:
-     * Input: strs = ["dog","racecar","car"]
      */
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
