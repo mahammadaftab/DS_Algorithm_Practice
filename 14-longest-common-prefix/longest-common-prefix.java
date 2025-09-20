@@ -82,5 +82,4 @@ class Solution {
         }
         return strs[0];
     }
-    
 }
