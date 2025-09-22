@@ -20,7 +20,6 @@ class Solution {
      * Example 2:
      * Input: n = 4
      * Output: "1211"
-     * Explanation:
      */
     public String countAndSay(int n) {
         if (n == 1) {
