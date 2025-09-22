@@ -8,7 +8,7 @@ class Solution {
      * 
      * countAndSay(1) = "1"
      * countAndSay(n) is the way you would "say" the digit string from countAndSay(n-1), which is then converted into a different digit string.
-     * To determine how you "say" a digit string, read each group of same digits from left to      */
+        */
     public String countAndSay(int n) {
         if (n == 1) {
             return "1";
