@@ -27,7 +27,6 @@ class Solution {
      * countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
      *
      * Constraints:
-     * 1 <= n <= 30
      */
     public String countAndSay(int n) {
         if (n == 1) {
