@@ -19,7 +19,6 @@ class Solution {
      *
      * Example 2:
      * Input: n = 4
-     * Output: "1211"
      */
     public String countAndSay(int n) {
         if (n == 1) {
