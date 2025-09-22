@@ -3,7 +3,6 @@ import java.lang.*;
 
 class Solution {
     /**
-     * 38. Count and Say
       */
     public String countAndSay(int n) {
         if (n == 1) {
