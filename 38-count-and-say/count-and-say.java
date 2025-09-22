@@ -14,8 +14,6 @@ class Solution {
      *
      * Example 1:
      * Input: n = 1
-     * Output: "1"
-     * Explanation: This is the base case.
      */
     public String countAndSay(int n) {
         if (n == 1) {
