@@ -6,8 +6,7 @@ class Solution {
      * 38. Count and Say
      * The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
      * 
-     * countAndSay(1) = "1"
-          */
+      */
     public String countAndSay(int n) {
         if (n == 1) {
             return "1";
