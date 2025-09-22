@@ -18,7 +18,6 @@ class Solution {
      * Explanation: This is the base case.
      *
      * Example 2:
-     * Input: n = 4
      */
     public String countAndSay(int n) {
         if (n == 1) {
