@@ -21,7 +21,6 @@ class Solution {
      * Input: n = 4
      * Output: "1211"
      * Explanation:
-     * countAndSay(1) = "1"
      */
     public String countAndSay(int n) {
         if (n == 1) {
