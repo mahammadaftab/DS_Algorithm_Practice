@@ -12,8 +12,6 @@ class Solution {
      *
      * Given a positive integer n, return the nth term of the count-and-say sequence.
      *
-     * Example 1:
-     * Input: n = 1
      */
     public String countAndSay(int n) {
         if (n == 1) {
