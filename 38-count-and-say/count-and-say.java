@@ -22,7 +22,6 @@ class Solution {
      * Output: "1211"
      * Explanation:
      * countAndSay(1) = "1"
-     * countAndSay(2) = say "1" = one 1 = "11"
      */
     public String countAndSay(int n) {
         if (n == 1) {
