@@ -10,8 +10,6 @@ class Solution {
      * countAndSay(n) is the way you would "say" the digit string from countAndSay(n-1), which is then converted into a different digit string.
      * To determine how you "say" a digit string, read each group of same digits from left to right, counting the number of those digits. For example, the string "3322251" is read as "two 3s, three 2s, one 5, one 1".
      *
-     * Given a positive integer n, return the nth term of the count-and-say sequence.
-     *
      */
     public String countAndSay(int n) {
         if (n == 1) {
