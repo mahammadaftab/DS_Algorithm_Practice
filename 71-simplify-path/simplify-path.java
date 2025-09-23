@@ -80,4 +80,3 @@ public class Solution {
         System.out.println(solution.simplifyPathAlternative("/a/./b/../../c/")); // Expected: /c
     }
 }
-
