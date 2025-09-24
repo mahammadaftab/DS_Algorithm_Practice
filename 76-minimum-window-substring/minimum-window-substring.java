@@ -7,7 +7,6 @@ class Solution {
      *
      * @param s The string to search in.
      * @param t The string containing characters to find.
-     * @return The minimum window substring, or an empty string if no such window exists.
      */
     public String minWindow(String s, String t) {
         // Edge case: if s is shorter than t, no window is possible.
