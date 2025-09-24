@@ -3,8 +3,6 @@ import java.util.Map;
 
 class Solution {
     /**
-     * Finds the minimum window in a string 's' which contains all the characters of another string 't'.
-     *
      */
     public String minWindow(String s, String t) {
         // Edge case: if s is shorter than t, no window is possible.
