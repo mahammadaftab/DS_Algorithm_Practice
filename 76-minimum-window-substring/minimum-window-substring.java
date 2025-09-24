@@ -2,8 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
-    /**
-     */
     public String minWindow(String s, String t) {
         // Edge case: if s is shorter than t, no window is possible.
         if (s.length() < t.length()) {
