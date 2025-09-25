@@ -16,8 +16,6 @@ public class Solution {
      * Example 1:
      * Input: s = "cbaebabacd", p = "abc"
      * Output: [0,6]
-     * Explanation:
-     * The substring with start index = 0 is "cba", which is an anagram of "abc".
      */
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
