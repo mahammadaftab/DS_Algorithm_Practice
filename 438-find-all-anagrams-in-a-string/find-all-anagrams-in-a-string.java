@@ -28,8 +28,6 @@ public class Solution {
      * The substring with start index = 1 is "ba", which is an anagram of "ab".
      * The substring with start index = 2 is "ab", which is an anagram of "ab".
      *
-     * Constraints:
-     * 1 <= s.length, p.length <= 3 * 104
      */
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
