@@ -3,9 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Solution {
-
-    /**
-     */
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
         if (s == null || p == null || s.length() < p.length()) {
