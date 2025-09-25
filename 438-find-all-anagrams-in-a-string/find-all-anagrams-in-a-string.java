@@ -30,7 +30,6 @@ public class Solution {
      *
      * Constraints:
      * 1 <= s.length, p.length <= 3 * 104
-     * s and p consist of lowercase English letters.
      */
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
