@@ -22,8 +22,6 @@ public class Solution {
      *
      * Example 2:
      * Input: s = "abab", p = "ab"
-     * Output: [0,1,2]
-     * Explanation:
      */
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
