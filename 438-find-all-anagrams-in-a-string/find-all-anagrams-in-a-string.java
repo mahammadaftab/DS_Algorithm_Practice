@@ -5,10 +5,6 @@ import java.util.List;
 public class Solution {
 
     /**
-     *
-     * Example 1:
-     * Input: s = "cbaebabacd", p = "abc"
-     * Output: [0,6]
      */
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
