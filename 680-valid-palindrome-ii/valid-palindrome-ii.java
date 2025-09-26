@@ -19,8 +19,6 @@ class Solution {
      * Output: false
      *
      * Constraints:
-     * 1 <= s.length <= 105
-     * s consists of lowercase English letters.
      */
     public boolean validPalindrome(String s) {
         int left = 0;
