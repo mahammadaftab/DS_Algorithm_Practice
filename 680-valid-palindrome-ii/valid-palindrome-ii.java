@@ -17,8 +17,6 @@ class Solution {
      * Example 3:
      * Input: s = "abc"
      * Output: false
-     *
-     * Constraints:
      */
     public boolean validPalindrome(String s) {
         int left = 0;
