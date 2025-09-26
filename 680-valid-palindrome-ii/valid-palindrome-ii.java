@@ -8,7 +8,6 @@ class Solution {
      * Example 1:
      * Input: s = "aba"
      * Output: true
-     *
      */
     public boolean validPalindrome(String s) {
         int left = 0;
