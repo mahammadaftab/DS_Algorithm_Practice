@@ -5,9 +5,6 @@ class Solution {
     /**
      * Given a string s, return true if the s can be palindrome after deleting at most one character from it.
      *
-     * Example 1:
-     * Input: s = "aba"
-     * Output: true
      */
     public boolean validPalindrome(String s) {
         int left = 0;
