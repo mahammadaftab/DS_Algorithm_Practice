@@ -14,9 +14,6 @@ class Solution {
      * Output: true
      * Explanation: You could delete the character 'c'.
      *
-     * Example 3:
-     * Input: s = "abc"
-     * Output: false
      */
     public boolean validPalindrome(String s) {
         int left = 0;
