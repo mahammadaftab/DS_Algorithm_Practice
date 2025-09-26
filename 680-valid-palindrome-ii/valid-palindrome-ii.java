@@ -9,9 +9,6 @@ class Solution {
      * Input: s = "aba"
      * Output: true
      *
-     * Example 2:
-     * Input: s = "abca"
-     * Output: true
      */
     public boolean validPalindrome(String s) {
         int left = 0;
