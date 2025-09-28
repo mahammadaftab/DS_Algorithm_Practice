@@ -1,0 +1,42 @@
+class Solution {
+    /**
+     * Calculates the Hamming distance between two integers.
+     * The Hamming distance is the number of positions at which the corresponding bits are different.
+     *
+     * @param x The first integer.
+     * @param y The second integer.
+     * @return The Hamming distance between x and y.
+     */
+    public int hammingDistance(int x, int y) {
+        // XOR the two numbers to find the bits that are different.
+        int xor = x ^ y;
+
+        // Count the number of set bits in the XOR result.
+        int distance = 0;
+        while (xor != 0) {
+            // Increment the distance if the least significant bit is set.
+            distance += (xor & 1);
+
+            // Right shift the XOR result to check the next bit.
+            xor >>>= 1; // Use unsigned right shift to avoid sign extension.
+        }
+
+        return distance;
+    }
+
+    //Alternative solution using Integer.bitCount()
+    // public int hammingDistance(int x, int y) {
+    //     return Integer.bitCount(x ^ y);
+    // }
+
+    //Alternative iterative solution with bitwise AND and subtraction
+    // public int hammingDistance(int x, int y) {
+    //     int xor = x ^ y;
+    //     int distance = 0;
+    //     while (xor > 0) {
+    //         xor &= (xor - 1);
+    //         distance++;
+    //     }
+    //     return distance;
+    // }
+}
