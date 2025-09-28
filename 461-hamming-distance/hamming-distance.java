@@ -17,18 +17,4 @@ class Solution {
     }
 
     //Alternative solution using Integer.bitCount()
-    // public int hammingDistance(int x, int y) {
-    //     return Integer.bitCount(x ^ y);
-    // }
-
-    //Alternative iterative solution with bitwise AND and subtraction
-    // public int hammingDistance(int x, int y) {
-    //     int xor = x ^ y;
-    //     int distance = 0;
-    //     while (xor > 0) {
-    //         xor &= (xor - 1);
-    //         distance++;
-    //     }
-    //     return distance;
-    // }
 }
