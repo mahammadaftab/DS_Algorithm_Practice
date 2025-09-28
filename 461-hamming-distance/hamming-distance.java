@@ -1,6 +1,4 @@
 class Solution {
-    /**
-    */
     public int hammingDistance(int x, int y) {
         // XOR the two numbers to find the bits that are different.
         int xor = x ^ y;
