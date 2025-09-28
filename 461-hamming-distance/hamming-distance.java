@@ -4,9 +4,7 @@ class Solution {
      * The Hamming distance is the number of positions at which the corresponding bits are different.
      *
      * @param x The first integer.
-     * @param y The second integer.
-     * @return The Hamming distance between x and y.
-     */
+    */
     public int hammingDistance(int x, int y) {
         // XOR the two numbers to find the bits that are different.
         int xor = x ^ y;
