@@ -15,6 +15,4 @@ class Solution {
 
         return distance;
     }
-
-    //Alternative solution using Integer.bitCount()
 }
