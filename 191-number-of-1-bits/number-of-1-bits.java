@@ -3,11 +3,6 @@ public class Solution {
      * LeetCode Problem 190: Number of 1 Bits
      *
      * Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
-     *
-     * For example, the Hamming weight of n = 11 (which is 00000000000000000000000000001011 in binary) is 3.
-     *
-     * @param n The unsigned integer
-     * @return The number of 1 bits in the binary representation of n
      */
     public int hammingWeight(int n) {
         int count = 0;
