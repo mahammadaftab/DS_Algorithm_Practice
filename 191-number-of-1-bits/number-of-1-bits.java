@@ -1,7 +1,5 @@
 public class Solution {
     /**
-     * LeetCode Problem 190: Number of 1 Bits
-     *
      */
     public int hammingWeight(int n) {
         int count = 0;
