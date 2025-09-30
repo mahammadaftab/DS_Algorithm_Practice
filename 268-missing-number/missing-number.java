@@ -48,7 +48,6 @@ class Solution {
      * The remaining number after XORing everything is the missing number.
      *
      * @param nums The input array of distinct numbers in the range [0, n].
-     * @return The missing number in the range [0, n].
      */
     public int missingNumberBitManipulation(int[] nums) {
         int missing = nums.length;
