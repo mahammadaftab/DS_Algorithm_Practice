@@ -47,7 +47,6 @@ class Solution {
      * The idea is to XOR all numbers from 0 to n with the numbers in the array.
      * The remaining number after XORing everything is the missing number.
      *
-     * @param nums The input array of distinct numbers in the range [0, n].
      */
     public int missingNumberBitManipulation(int[] nums) {
         int missing = nums.length;
