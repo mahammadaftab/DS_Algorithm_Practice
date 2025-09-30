@@ -43,7 +43,6 @@ class Solution {
 
 
     /**
-     * Another solution using bit manipulation (XOR).
      */
     public int missingNumberBitManipulation(int[] nums) {
         int missing = nums.length;
