@@ -22,11 +22,6 @@ class Solution {
      *
      * Constraints:
      * n == nums.length
-     * 1 <= n <= 104
-     * 0 <= nums[i] <= n
-     * All the numbers of nums are unique.
-     *
-     * @param nums The input array of distinct numbers in the range [0, n].
      */
     public int missingNumber(int[] nums) {
         int n = nums.length;
