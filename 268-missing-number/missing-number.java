@@ -27,7 +27,6 @@ class Solution {
      * All the numbers of nums are unique.
      *
      * @param nums The input array of distinct numbers in the range [0, n].
-     * @return The missing number in the range [0, n].
      */
     public int missingNumber(int[] nums) {
         int n = nums.length;
