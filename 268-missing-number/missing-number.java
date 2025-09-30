@@ -44,7 +44,6 @@ class Solution {
 
     /**
      * Another solution using bit manipulation (XOR).
-     * The idea is to XOR all numbers from 0 to n with the numbers in the array.
      */
     public int missingNumberBitManipulation(int[] nums) {
         int missing = nums.length;
