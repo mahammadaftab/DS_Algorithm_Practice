@@ -12,10 +12,6 @@ class Solution {
      *
      * Example 2:
      *
-     * Input: n = 16
-     * Output: true
-     * Explanation: 24 = 16
-     *
      */
     public boolean isPowerOfTwo(int n) {
         // Negative numbers and zero are not powers of two
