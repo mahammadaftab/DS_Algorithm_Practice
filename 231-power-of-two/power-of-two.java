@@ -1,7 +1,5 @@
 class Solution {
     /**
-     * Given an integer n, return true if it is a power of two. Otherwise, return false.
-     *
      */
     public boolean isPowerOfTwo(int n) {
         // Negative numbers and zero are not powers of two
