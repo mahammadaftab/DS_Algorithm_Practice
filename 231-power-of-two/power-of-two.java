@@ -21,9 +21,6 @@ class Solution {
      * Input: n = 3
      * Output: false
      *
-     * Constraints:
-     *
-     * -231 <= n <= 231 - 1
      */
     public boolean isPowerOfTwo(int n) {
         // Negative numbers and zero are not powers of two
