@@ -24,10 +24,6 @@ public class Solution {
      * 3 --> 11
      * 4 --> 100
      * 5 --> 101
-     *
-     * Constraints:
-     * 0 <= n <= 10^5
-     *
      */
     public int[] countBits(int n) {
         int[] ans = new int[n + 1];
