@@ -13,10 +13,6 @@ public class Solution {
      * 0 --> 0
      * 1 --> 1
      * 2 --> 10
-     *
-     * Example 2:
-     * Input: n = 5
-     * Output: [0,1,1,2,1,2]
      */
     public int[] countBits(int n) {
         int[] ans = new int[n + 1];
