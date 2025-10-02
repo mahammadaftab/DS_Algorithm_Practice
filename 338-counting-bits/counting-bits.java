@@ -9,10 +9,6 @@ public class Solution {
      * Example 1:
      * Input: n = 2
      * Output: [0,1,1]
-     * Explanation:
-     * 0 --> 0
-     * 1 --> 1
-     * 2 --> 10
      */
     public int[] countBits(int n) {
         int[] ans = new int[n + 1];
