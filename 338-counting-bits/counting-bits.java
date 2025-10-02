@@ -2,8 +2,6 @@ import java.util.Arrays;
 
 public class Solution {
 
-    /**
-     */
     public int[] countBits(int n) {
         int[] ans = new int[n + 1];
 
