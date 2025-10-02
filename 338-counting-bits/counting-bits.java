@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class Solution {
 
     /**
-     * LeetCode Problem 338: Counting Bits
      */
     public int[] countBits(int n) {
         int[] ans = new int[n + 1];
