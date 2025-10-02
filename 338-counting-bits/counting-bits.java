@@ -28,8 +28,6 @@ public class Solution {
      * Constraints:
      * 0 <= n <= 10^5
      *
-     * @param n The integer up to which to count the number of set bits.
-     * @return An array where each element at index i contains the number of set bits in i.
      */
     public int[] countBits(int n) {
         int[] ans = new int[n + 1];
