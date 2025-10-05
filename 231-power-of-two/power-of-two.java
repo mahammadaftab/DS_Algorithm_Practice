@@ -5,12 +5,6 @@ class Solution {
      * An integer n is a power of two, if there exists an integer x such that n == 2x.
      *
      * Example 1:
-     *
-     * Input: n = 1
-     * Output: true
-     * Explanation: 20 = 1
-     *
-     * Example 2:
      */
     public boolean isPowerOfTwo(int n) {
         // Negative numbers and zero are not powers of two
