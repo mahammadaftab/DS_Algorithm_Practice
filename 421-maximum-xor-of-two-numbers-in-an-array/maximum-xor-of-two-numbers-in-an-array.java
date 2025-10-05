@@ -4,9 +4,6 @@ import java.util.Set;
 public class Solution {
 
     /**
-     * LeetCode Problem: 421. Maximum XOR of Two Numbers in an Array
-     * Difficulty: Hard
-     * Topic: Bit Manipulation
      */
     public int findMaximumXOR(int[] nums) {
         int max_xor = 0; // Initialize the maximum XOR to 0
