@@ -10,9 +10,6 @@ public class Solution {
      *
      * Given an integer array nums, return the maximum result of nums[i] XOR nums[j],
      * where 0 <= i <= j < n.
-     *
-     * @param nums The input integer array.
-     * @return The maximum XOR of two numbers in the array.
      */
     public int findMaximumXOR(int[] nums) {
         int max_xor = 0; // Initialize the maximum XOR to 0
