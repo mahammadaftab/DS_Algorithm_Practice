@@ -3,8 +3,6 @@ import java.util.Set;
 
 public class Solution {
 
-    /**
-     */
     public int findMaximumXOR(int[] nums) {
         int max_xor = 0; // Initialize the maximum XOR to 0
         int mask = 0; // Initialize the mask to 0
