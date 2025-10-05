@@ -1,6 +1,4 @@
 class Solution {
-    /**
-     */
     public boolean isPowerOfTwo(int n) {
         // Negative numbers and zero are not powers of two
         if (n <= 0) {
