@@ -1,5 +1,5 @@
 /**
- * The Fibonacci numbers, commonly denoted F(n) form a sequence, called the  */
+ *  */
 class Solution {
     /**
      * Calculates the nth Fibonacci number using recursion.
