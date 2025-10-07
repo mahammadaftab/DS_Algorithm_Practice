@@ -1,5 +1,5 @@
 /**
- *  */
+ */
 class Solution {
     /**
      * Calculates the nth Fibonacci number using recursion.
