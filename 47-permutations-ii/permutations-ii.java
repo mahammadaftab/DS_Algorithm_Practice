@@ -11,12 +11,6 @@ public class Solution {
      *
      * Input: [1,1,2]
      * Output:
-     * [
-     *   [1,1,2],
-     *   [1,2,1],
-     *   [2,1,1]
-     * ]
-     *
      */
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
