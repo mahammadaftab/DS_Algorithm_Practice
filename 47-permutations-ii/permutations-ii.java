@@ -7,10 +7,6 @@ public class Solution {
     /**
      * Given a collection of numbers that might contain duplicates, return all possible unique permutations.
      *
-     * Example:
-     *
-     * Input: [1,1,2]
-     * Output:
      */
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
