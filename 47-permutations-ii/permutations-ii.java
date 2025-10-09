@@ -17,8 +17,6 @@ public class Solution {
      *   [2,1,1]
      * ]
      *
-     * @param nums The input array of integers, possibly with duplicates.
-     * @return A list of lists, where each inner list is a unique permutation of the input array.
      */
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
