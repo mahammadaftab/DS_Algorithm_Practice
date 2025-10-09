@@ -4,8 +4,6 @@ import java.util.List;
 
 public class Solution {
 
-    /**
-     */
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums); // Sort the input array to handle duplicates efficiently.
