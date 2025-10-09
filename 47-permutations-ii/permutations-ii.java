@@ -17,8 +17,6 @@ public class Solution {
     /**
      * Recursive helper function to generate permutations.
      *
-     * @param nums               The input array of integers.
-     * @param used               A boolean array to track which numbers have been used.
      */
     private void permuteHelper(int[] nums, boolean[] used, List<Integer> currentPermutation, List<List<Integer>> result) {
         if (currentPermutation.size() == nums.length) {
