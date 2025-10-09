@@ -14,8 +14,6 @@ public class Solution {
         return result;
     }
 
-    /**
-     */
     private void permuteHelper(int[] nums, boolean[] used, List<Integer> currentPermutation, List<List<Integer>> result) {
         if (currentPermutation.size() == nums.length) {
             result.add(new ArrayList<>(currentPermutation)); // Add a copy of the current permutation to the result.
