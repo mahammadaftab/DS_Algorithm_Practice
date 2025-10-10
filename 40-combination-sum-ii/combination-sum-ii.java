@@ -21,10 +21,6 @@ public class Solution {
      * A solution set is:
      * [
      *   [1, 7],
-     *   [1, 2, 5],
-     *   [2, 6],
-     *   [1, 1, 6]
-     * ]
      */
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
