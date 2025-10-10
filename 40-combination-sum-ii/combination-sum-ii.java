@@ -5,8 +5,6 @@ import java.util.List;
 public class Solution {
 
     /**
-     * LeetCode Problem 40: Combination Sum II
-     * 
      */
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
