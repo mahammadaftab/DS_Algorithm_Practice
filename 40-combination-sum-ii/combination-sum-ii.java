@@ -18,9 +18,7 @@ public class Solution {
      *
      * Example:
      * candidates = [10,1,2,7,6,1,5], target = 8,
-     * A solution set is:
-     * [
-     *   [1, 7],
+     
      */
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
