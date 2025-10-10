@@ -12,8 +12,6 @@ public class Solution {
      * 
      * Each number in candidates may only be used once in one combination.
      * 
-     * Note:
-     * - All numbers (including target) will be positive integers.
      */
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
