@@ -10,12 +10,6 @@ public class Solution {
      * Note:
      *  - The solution set must not contain duplicate subsets.
      *  - The subsets must be in non-descending order.
-     *
-     * Example:
-     *  Input: [1,2,2]
-     *  Output:
-     *  [
-     *    [2],
      */
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
