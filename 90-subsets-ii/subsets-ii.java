@@ -22,9 +22,6 @@ public class Solution {
      *    [1,2],
      *    []
      *  ]
-     *
-     * @param nums The input array of integers that might contain duplicates.
-     * @return A list of lists, where each inner list represents a subset.
      */
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
