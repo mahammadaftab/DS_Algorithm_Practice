@@ -6,10 +6,6 @@ public class Solution {
 
     /**
      * Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
-     *
-     * Note:
-     *  - The solution set must not contain duplicate subsets.
-     *  - The subsets must be in non-descending order.
      */
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
