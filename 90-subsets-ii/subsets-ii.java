@@ -5,7 +5,6 @@ import java.util.List;
 public class Solution {
 
     /**
-     * Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
      */
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
