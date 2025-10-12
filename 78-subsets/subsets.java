@@ -4,7 +4,6 @@ import java.util.List;
 public class Solution {
 
     /**
-     * Generates all possible subsets of a given set using bit manipulation.
      */
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
