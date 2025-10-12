@@ -5,8 +5,6 @@ public class Solution {
 
     /**
      * Generates all possible subsets of a given set using bit manipulation.
-     * 
-     * @param nums The input array representing the set.
      */
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
