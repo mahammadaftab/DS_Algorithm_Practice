@@ -15,9 +15,7 @@ public class Solution {
      * Approach:
      * Use backtracking to explore all possible placements of queens. Keep track of the columns, diagonals, and anti-diagonals that are under attack.
      *
-     * Time Complexity: O(n!)
-     * Space Complexity: O(n)
-     */
+''     */
 
     private int count;
 
