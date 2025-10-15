@@ -5,9 +5,6 @@ public class Solution {
 
     /**
      * Problem: N-Queens II (LeetCode)
-     * Difficulty: Hard
-     * Topic: Recursion
-     *
     */
 
     private int count;
