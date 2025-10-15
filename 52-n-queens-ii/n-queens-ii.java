@@ -2,10 +2,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Solution {
-
-    /**
-    */
-
     private int count;
 
     public int totalNQueens(int n) {
