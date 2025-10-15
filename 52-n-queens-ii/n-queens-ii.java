@@ -4,7 +4,6 @@ import java.util.Set;
 public class Solution {
 
     /**
-     * Problem: N-Queens II (LeetCode)
     */
 
     private int count;
