@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class Solution {
-
     public void solveSudoku(char[][] board) {
         if (board == null || board.length != 9 || board[0].length != 9) {
             return;
