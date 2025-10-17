@@ -12,7 +12,6 @@ public class Solution {
      *
      * @param k The number of elements in each combination.
      * @param n The target sum.
-     * @return A list of lists, where each inner list is a combination of k numbers summing to n.
      */
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
