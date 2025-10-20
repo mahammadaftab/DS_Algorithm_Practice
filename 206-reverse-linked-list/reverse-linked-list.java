@@ -24,3 +24,11 @@ class Solution {
         return prev; // After the loop, prev will be the new head of the reversed list
     }
 }
+
+
+
+
+
+
+
+
