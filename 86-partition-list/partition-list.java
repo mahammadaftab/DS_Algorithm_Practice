@@ -40,5 +40,4 @@ class Solution {
         // Return the head of the partitioned list
         return lessHead.next; // Return the partitioned list after dummy node
     }
-
 }
