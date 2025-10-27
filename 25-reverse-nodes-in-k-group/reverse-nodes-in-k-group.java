@@ -64,5 +64,5 @@ class Solution {
         // head is the new tail (the old head)
         return new ListNode[]{prev, head};
     }
-    
+
 }
