@@ -65,5 +65,5 @@ class Solution {
         return new ListNode[]{prev, head};
     }
     
-    // The "public static class ListNode { ... }" block has been removed.
+    
 }
