@@ -65,5 +65,4 @@ class Solution {
         return new ListNode[]{prev, head};
     }
     
-    
 }
