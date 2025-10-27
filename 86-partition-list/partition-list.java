@@ -41,5 +41,5 @@ class Solution {
         return lessHead.next; // Return the partitioned list after dummy node
     }
     
-    
+
 }
