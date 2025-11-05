@@ -62,5 +62,5 @@ class MyQueue {
 /**
  * Your MyQueue object will be instantiated and called as such:
  * MyQueue obj = new MyQueue();
- * obj.push(x);
+
  */
