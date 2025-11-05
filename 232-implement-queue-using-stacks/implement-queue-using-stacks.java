@@ -58,4 +58,3 @@ class MyQueue {
         System.out.println(queue.empty()); // returns false
     }
 }
-
