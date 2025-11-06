@@ -71,4 +71,3 @@ class Solution {
         System.out.println("Result 3: " + sol.evalRPN(tokens3)); // Output: 22
     }
 }
-
