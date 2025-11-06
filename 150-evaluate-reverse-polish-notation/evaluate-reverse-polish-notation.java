@@ -1,12 +1,7 @@
 import java.util.Stack;
 
 class Solution {
-    /**
-     * Evaluates an arithmetic expression in Reverse Polish Notation (RPN).
-     * 
-     * @param tokens An array of strings representing the RPN expression.
-     * @return The result of the evaluation.
-     */
+    
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
 
