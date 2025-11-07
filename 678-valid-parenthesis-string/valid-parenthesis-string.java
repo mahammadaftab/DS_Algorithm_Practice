@@ -107,3 +107,7 @@ class Solution {
         System.out.println("s6 = " + s6 + ", isValid = " + sol.checkValidStringOptimized(s6)); // Expected: false
     }
 }
+
+
+
+
