@@ -4,7 +4,6 @@ class Solution {
     /**
      * Given a string s containing only three types of characters: '(', ')' and '*', return true if the string is valid.
      *
-     * The following rules define a valid string:
         *
      * Example 1:
      * Input: s = "()"
