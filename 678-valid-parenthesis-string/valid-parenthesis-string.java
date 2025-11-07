@@ -3,7 +3,6 @@ import java.util.Stack;
 class Solution {
     /**
      * Given a string s containing only three types of characters: '(', ')' and '*', return true if the string is valid.
-     *
         *
      * Example 1:
      * Input: s = "()"
