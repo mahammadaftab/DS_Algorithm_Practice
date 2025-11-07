@@ -6,7 +6,6 @@ class Solution {
      *
      * The following rules define a valid string:
      * Any left parenthesis '(' must have a corresponding right parenthesis ')'.
-     * Any right parenthesis ')' must have a corresponding left parenthesis '('.
         *
      * Example 1:
      * Input: s = "()"
