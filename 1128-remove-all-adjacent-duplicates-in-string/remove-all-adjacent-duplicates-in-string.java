@@ -61,4 +61,3 @@ class Solution {
         System.out.println("Input: " + s4 + ", Output: " + result4); // Expected: "b"
     }
 }
-
