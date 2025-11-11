@@ -32,4 +32,3 @@ class Solution {
         return root; // Return the root of the inverted tree
     }
 }
-
