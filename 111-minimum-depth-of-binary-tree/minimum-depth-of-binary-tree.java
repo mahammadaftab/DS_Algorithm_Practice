@@ -31,3 +31,14 @@ class Solution {
         return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
