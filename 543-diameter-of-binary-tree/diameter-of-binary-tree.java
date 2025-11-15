@@ -38,3 +38,13 @@ class Solution {
         return Math.max(leftHeight, rightHeight) + 1;
     }
 }
+
+
+
+
+
+
+
+
+
+
