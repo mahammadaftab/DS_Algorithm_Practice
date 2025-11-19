@@ -114,4 +114,3 @@ class Solution {
         System.out.println("Root.left.left.next value: " + connectedRoot.left.left.next.val); // Should be 5
     }
 }
-
