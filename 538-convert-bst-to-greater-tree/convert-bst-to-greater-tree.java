@@ -86,5 +86,4 @@ class Solution {
             inorderTraversal(root.right);
         }
     }
-
 }
