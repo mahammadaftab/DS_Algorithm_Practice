@@ -40,7 +40,6 @@ class Solution {
         return root;
     }
 
-
     //Example usage (not part of the leetcode submission)
     public static void main(String[] args) {
         TreeNode root = new TreeNode(6);
