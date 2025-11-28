@@ -44,7 +44,6 @@ class Solution {
     /*public static class TreeNode {
         int val;
         TreeNode left;
-        TreeNode right;
     }*/
 
     //Example usage (not part of the leetcode submission)
