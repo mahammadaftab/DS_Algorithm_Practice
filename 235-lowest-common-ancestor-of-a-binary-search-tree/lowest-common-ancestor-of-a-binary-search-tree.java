@@ -48,7 +48,6 @@ class Solution {
 
         TreeNode(int x) {
             val = x;
-        }
     }*/
 
     //Example usage (not part of the leetcode submission)
