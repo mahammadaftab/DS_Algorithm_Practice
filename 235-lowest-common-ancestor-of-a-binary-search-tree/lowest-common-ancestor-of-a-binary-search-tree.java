@@ -45,7 +45,6 @@ class Solution {
         int val;
         TreeNode left;
         TreeNode right;
-
     }*/
 
     //Example usage (not part of the leetcode submission)
