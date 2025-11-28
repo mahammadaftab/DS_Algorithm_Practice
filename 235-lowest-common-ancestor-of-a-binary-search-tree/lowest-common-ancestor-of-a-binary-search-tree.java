@@ -46,7 +46,6 @@ class Solution {
         TreeNode left;
         TreeNode right;
 
-        TreeNode(int x) {
     }*/
 
     //Example usage (not part of the leetcode submission)
