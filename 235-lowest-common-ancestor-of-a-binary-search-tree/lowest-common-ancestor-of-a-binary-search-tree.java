@@ -40,7 +40,6 @@ class Solution {
         return root;
     }
 
-    // Definition for a binary tree node.    
 
     //Example usage (not part of the leetcode submission)
     public static void main(String[] args) {
