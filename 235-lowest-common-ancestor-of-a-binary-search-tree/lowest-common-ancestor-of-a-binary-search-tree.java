@@ -47,7 +47,6 @@ class Solution {
         TreeNode right;
 
         TreeNode(int x) {
-            val = x;
     }*/
 
     //Example usage (not part of the leetcode submission)
