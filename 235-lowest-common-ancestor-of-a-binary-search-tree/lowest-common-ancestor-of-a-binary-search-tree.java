@@ -42,7 +42,6 @@ class Solution {
 
     // Definition for a binary tree node.
     /*public static class TreeNode {
-        int val;
     }*/
 
     //Example usage (not part of the leetcode submission)
