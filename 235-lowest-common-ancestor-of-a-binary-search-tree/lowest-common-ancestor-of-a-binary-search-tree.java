@@ -41,8 +41,7 @@ class Solution {
     }
 
     // Definition for a binary tree node.
-    /*public static class TreeNode {
-    }*/
+    
 
     //Example usage (not part of the leetcode submission)
     public static void main(String[] args) {
