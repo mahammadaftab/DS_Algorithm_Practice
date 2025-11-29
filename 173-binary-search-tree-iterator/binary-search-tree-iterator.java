@@ -55,5 +55,4 @@ class BSTIterator {
 
 /**
  * Your BSTIterator object will be instantiated and called as such:
- * BSTIterator obj = new BSTIterator(root);
  */
