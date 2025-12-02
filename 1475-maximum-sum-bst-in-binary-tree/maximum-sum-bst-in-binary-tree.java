@@ -73,4 +73,3 @@ class Solution {
         return new Result(isBST, minVal, maxVal, sum);
     }
 }
-
