@@ -101,4 +101,3 @@ class Solution {
         return b == 0 ? a : gcd(b, a % b);
     }
 }
-
