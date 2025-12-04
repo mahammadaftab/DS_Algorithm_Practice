@@ -61,3 +61,4 @@ class Solution {
         System.out.println("Number of islands in grid2: " + solution.numIslands(grid2)); // Expected: 3
     }
 }
+
