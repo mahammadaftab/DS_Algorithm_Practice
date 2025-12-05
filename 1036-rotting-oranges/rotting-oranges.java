@@ -98,4 +98,3 @@ class Solution {
         System.out.println("Result 3: " + result3);
     }
 }
-
