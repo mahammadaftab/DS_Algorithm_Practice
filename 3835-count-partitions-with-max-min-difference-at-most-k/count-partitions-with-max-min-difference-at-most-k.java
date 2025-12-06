@@ -8,7 +8,6 @@ class Solution {
         
         int[] dp = new int[n + 1];
         
-        // This allows us to calculate the sum of a range of dp values in O(1)
         int[] prefixDp = new int[n + 2];
         
         // Base case: Empty prefix has 1 way to be partitioned
