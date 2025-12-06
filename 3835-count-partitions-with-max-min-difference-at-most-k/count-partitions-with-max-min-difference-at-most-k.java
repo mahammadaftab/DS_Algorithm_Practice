@@ -29,7 +29,6 @@ class Solution {
             }
             maxD.offerLast(right);
             
-            // 2. Update Min Deque (Monotonic Increasing)
             while (!minD.isEmpty() && nums[minD.peekLast()] >= nums[right]) {
                 minD.pollLast();
             }
