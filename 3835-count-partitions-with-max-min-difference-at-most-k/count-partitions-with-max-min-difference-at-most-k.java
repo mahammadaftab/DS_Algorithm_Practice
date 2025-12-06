@@ -10,7 +10,6 @@ class Solution {
         
         int[] prefixDp = new int[n + 2];
         
-        // Base case: Empty prefix has 1 way to be partitioned
         dp[0] = 1;
         prefixDp[1] = 1; // prefixDp[1] stores sum(dp[0])
         
