@@ -8,7 +8,6 @@ class Solution {
         
         int[] dp = new int[n + 1];
         
-        // prefixDp[i] = Sum of dp[0]...dp[i-1]
         // This allows us to calculate the sum of a range of dp values in O(1)
         int[] prefixDp = new int[n + 2];
         
