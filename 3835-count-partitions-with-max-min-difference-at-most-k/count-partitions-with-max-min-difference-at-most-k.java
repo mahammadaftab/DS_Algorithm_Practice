@@ -13,7 +13,6 @@ class Solution {
         dp[0] = 1;
         prefixDp[1] = 1; // prefixDp[1] stores sum(dp[0])
         
-        // Deques to maintain indices of max and min elements in the current window
         Deque<Integer> maxD = new ArrayDeque<>();
         Deque<Integer> minD = new ArrayDeque<>();
         
