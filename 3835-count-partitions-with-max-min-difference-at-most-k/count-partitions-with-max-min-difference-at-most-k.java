@@ -44,7 +44,6 @@ class Solution {
                 if (minD.peekFirst() < left) minD.pollFirst();
             }
             
-            // 4. Calculate DP value
             
             long rangeSum = (prefixDp[right + 1] - prefixDp[left] + MOD) % MOD;
             dp[right + 1] = (int) rangeSum;
