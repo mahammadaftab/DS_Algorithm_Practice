@@ -34,7 +34,6 @@ class Solution {
             }
             minD.offerLast(right);
             
-            // 3. Shrink window from the left if condition is violated
             while (nums[maxD.peekFirst()] - nums[minD.peekFirst()] > k) {
                 left++;
                 // Remove indices that are now out of the window [left, right]
