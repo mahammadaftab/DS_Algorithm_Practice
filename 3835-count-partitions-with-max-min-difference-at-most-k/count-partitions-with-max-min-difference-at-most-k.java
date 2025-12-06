@@ -24,7 +24,6 @@ class Solution {
         int left = 0;
         
         for (int right = 0; right < n; right++) {
-            // 1. Update Max Deque (Monotonic Decreasing)
             while (!maxD.isEmpty() && nums[maxD.peekLast()] <= nums[right]) {
                 maxD.pollLast();
             }
