@@ -43,7 +43,6 @@ class Solution {
             long rangeSum = (prefixDp[right + 1] - prefixDp[left] + MOD) % MOD;
             dp[right + 1] = (int) rangeSum;
             
-            // 5. Update prefix sum for the next iteration
             prefixDp[right + 2] = (prefixDp[right + 1] + dp[right + 1]) % MOD;
         }
         
