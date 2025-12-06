@@ -46,7 +46,6 @@ class Solution {
             
             // 4. Calculate DP value
             // We can start the last segment at any index j where left <= j <= right.
-            // This means we transition from states dp[left] ... dp[right].
             
             long rangeSum = (prefixDp[right + 1] - prefixDp[left] + MOD) % MOD;
             dp[right + 1] = (int) rangeSum;
