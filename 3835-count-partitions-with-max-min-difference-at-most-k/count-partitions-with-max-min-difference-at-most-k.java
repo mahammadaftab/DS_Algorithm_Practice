@@ -43,8 +43,7 @@ class Solution {
                 if (maxD.peekFirst() < left) maxD.pollFirst();
                 if (minD.peekFirst() < left) minD.pollFirst();
             }
-            
-            
+                        
             long rangeSum = (prefixDp[right + 1] - prefixDp[left] + MOD) % MOD;
             dp[right + 1] = (int) rangeSum;
             
