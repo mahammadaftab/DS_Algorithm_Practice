@@ -6,7 +6,6 @@ class Solution {
         int n = nums.length;
         int MOD = 1_000_000_007;
         
-        // dp[i] = Number of ways to partition the prefix nums[0...i-1]
         int[] dp = new int[n + 1];
         
         // prefixDp[i] = Sum of dp[0]...dp[i-1]
