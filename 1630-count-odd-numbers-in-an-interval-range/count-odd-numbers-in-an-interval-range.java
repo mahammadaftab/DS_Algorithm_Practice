@@ -4,7 +4,6 @@ class Solution {
         if (low % 2 != 0 || high % 2 != 0) {
             count++;
         }
-        
         return count;
     }
 }
