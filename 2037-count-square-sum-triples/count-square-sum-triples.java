@@ -12,7 +12,6 @@ class Solution {
                 int c = (int) Math.sqrt(squareSum);
                 
                 // Check if it forms a valid triple:
-                // 1. Must be a perfect square (c * c == squareSum)
                 if (c <= n && c * c == squareSum) {
                     count++;
                 }
