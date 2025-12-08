@@ -8,7 +8,6 @@ class Solution {
                 
                 int squareSum = a * a + b * b;
                 
-                // Calculate the integer square root
                 int c = (int) Math.sqrt(squareSum);
                 
                 if (c <= n && c * c == squareSum) {
