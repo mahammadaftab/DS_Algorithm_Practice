@@ -13,7 +13,6 @@ class Solution {
                 
                 // Check if it forms a valid triple:
                 // 1. Must be a perfect square (c * c == squareSum)
-                // 2. The hypotenuse c must be within the range [1, n]
                 if (c <= n && c * c == squareSum) {
                     count++;
                 }
