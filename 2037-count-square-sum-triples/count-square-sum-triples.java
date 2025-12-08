@@ -11,7 +11,6 @@ class Solution {
                 // Calculate the integer square root
                 int c = (int) Math.sqrt(squareSum);
                 
-                // Check if it forms a valid triple:
                 if (c <= n && c * c == squareSum) {
                     count++;
                 }
