@@ -17,9 +17,7 @@ class Solution {
         
         long totalTriplets = 0;
         
-        // Step 2: Iterate through the array treating each element as the 'middle' (nums[j])
         for (int num : nums) {
-            // Remove current element from 'right' because it is now the pivot 'j'
             if (num < MAX_VAL) {
                 rightFreq[num]--;
             }
