@@ -47,3 +47,12 @@ class Solution {
         return (int) totalTriplets;
     }
 }
+
+
+
+
+
+
+
+
+
