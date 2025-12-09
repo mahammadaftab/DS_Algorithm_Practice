@@ -3,12 +3,10 @@ class Solution {
         long MOD = 1_000_000_007L;
         
         // Use arrays for frequency since constraints are typically nums[i] <= 10^5.
-        // If the problem constraints allow larger numbers, use HashMap instead.
         int MAX_VAL = 100001; 
         int[] rightFreq = new int[MAX_VAL];
         int[] leftFreq = new int[MAX_VAL];
         
-        // Step 1: Populate rightFreq with all numbers initially
         for (int num : nums) {
             if (num < MAX_VAL) {
                 rightFreq[num]++;
