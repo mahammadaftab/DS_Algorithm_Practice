@@ -32,18 +32,15 @@ class Solution {
                 long leftCount = leftFreq[target];
                 long rightCount = rightFreq[target];
                 
-                // Add combinations: (possibilities on left) * (possibilities on right)
                 if (leftCount > 0 && rightCount > 0) {
                     totalTriplets = (totalTriplets + (leftCount * rightCount)) % MOD;
                 }
             }
             
-            // Step 3: Add current element to 'left' for future iterations
             if (num < MAX_VAL) {
                 leftFreq[num]++;
             }
         }
-        
         return (int) totalTriplets;
     }
 }
