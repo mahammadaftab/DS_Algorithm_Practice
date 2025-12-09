@@ -24,10 +24,8 @@ class Solution {
                 rightFreq[num]--;
             }
             
-            // The target value for neighbours i and k is num * 2
             int target = num * 2;
             
-            // Check if target is within valid bounds
             if (target < MAX_VAL) {
                 long leftCount = leftFreq[target];
                 long rightCount = rightFreq[target];
