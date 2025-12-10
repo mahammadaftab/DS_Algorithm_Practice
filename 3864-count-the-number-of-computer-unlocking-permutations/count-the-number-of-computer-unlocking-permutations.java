@@ -23,3 +23,12 @@ class Solution {
         return (int) factorial;
     }
 }
+
+
+
+
+
+
+
+
+
