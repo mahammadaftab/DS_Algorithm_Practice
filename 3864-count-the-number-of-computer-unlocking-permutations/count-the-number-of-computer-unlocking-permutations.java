@@ -12,9 +12,6 @@ class Solution {
             }
         }
 
-        // Step 2: Calculate (n-1)! modulo 10^9 + 7
-        // Since 0 satisfies the condition for everyone, the remaining n-1 computers
-        // can be unlocked in any order.
         long factorial = 1;
         for (int i = 1; i < n; i++) {
             factorial = (factorial * i) % MOD;
