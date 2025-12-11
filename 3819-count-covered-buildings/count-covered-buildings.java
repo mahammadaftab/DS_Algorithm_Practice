@@ -50,8 +50,7 @@ class Solution {
             if (coveredVertically && coveredHorizontally) {
                 count++;
             }
-        }
-        
+        }        
         return count;
     }
 }
