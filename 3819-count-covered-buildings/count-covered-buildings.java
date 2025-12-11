@@ -43,8 +43,6 @@ class Solution {
             // This ensures there is a neighbor above (minX) and below (maxX).
             boolean coveredVertically = (x > minX_at_Y[y]) && (x < maxX_at_Y[y]);
             
-            // Check Horizontal: Is current y strictly between the min and max y of this row?
-            // This ensures there is a neighbor left (minY) and right (maxY).
             boolean coveredHorizontally = (y > minY_at_X[x]) && (y < maxY_at_X[x]);
             
             if (coveredVertically && coveredHorizontally) {
