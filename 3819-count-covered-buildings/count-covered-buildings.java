@@ -39,8 +39,6 @@ class Solution {
             int x = b[0];
             int y = b[1];
             
-            // Check Vertical: Is current x strictly between the min and max x of this column?
-            // This ensures there is a neighbor above (minX) and below (maxX).
             boolean coveredVertically = (x > minX_at_Y[y]) && (x < maxX_at_Y[y]);
             
             boolean coveredHorizontally = (y > minY_at_X[x]) && (y < maxY_at_X[x]);
