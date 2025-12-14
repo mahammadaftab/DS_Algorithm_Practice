@@ -38,4 +38,3 @@ class Solution {
         return (int) ways;
     }
 }
-
