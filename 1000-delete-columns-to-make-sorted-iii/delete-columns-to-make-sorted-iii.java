@@ -40,3 +40,12 @@ class Solution {
         return cols - maxKept;
     }
 }
+
+
+
+
+
+
+
+
+
