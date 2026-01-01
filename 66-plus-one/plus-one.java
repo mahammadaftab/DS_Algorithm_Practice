@@ -21,3 +21,12 @@ class Solution {
         return newNumber;
     }
 }
+
+
+
+
+
+
+
+
+
