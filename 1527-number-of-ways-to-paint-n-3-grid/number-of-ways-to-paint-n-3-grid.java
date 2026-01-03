@@ -19,3 +19,9 @@ class Solution {
         return (int) ((abc + aba) % mod);
     }
 }
+
+
+
+
+
+
