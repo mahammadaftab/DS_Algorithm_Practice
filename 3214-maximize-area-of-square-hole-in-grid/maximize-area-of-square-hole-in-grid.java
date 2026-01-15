@@ -32,4 +32,3 @@ class Solution {
         return maxCount + 1;
     }
 }
-
