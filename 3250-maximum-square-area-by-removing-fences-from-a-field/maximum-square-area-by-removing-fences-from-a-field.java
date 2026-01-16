@@ -44,3 +44,8 @@ class Solution {
         return (int) ((maxSide * maxSide) % mod);
     }
 }
+
+
+
+
+
