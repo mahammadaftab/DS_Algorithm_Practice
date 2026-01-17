@@ -29,3 +29,7 @@ class Solution {
         return maxSide * maxSide;
     }
 }
+
+
+
+
