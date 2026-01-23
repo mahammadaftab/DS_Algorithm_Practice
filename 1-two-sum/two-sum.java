@@ -15,5 +15,4 @@ class Solution {
     }
 }
 
-
 //Java code
