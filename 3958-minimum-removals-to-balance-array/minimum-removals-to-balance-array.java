@@ -25,4 +25,3 @@ class Solution {
         return n - maxKept;
     }
 }
-
