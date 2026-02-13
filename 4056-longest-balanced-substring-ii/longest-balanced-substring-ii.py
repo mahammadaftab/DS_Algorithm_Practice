@@ -60,5 +60,3 @@ class Solution:
                     state_map[state_tuple] = i
                     
         return max_len
-
-        
