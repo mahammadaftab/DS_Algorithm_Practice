@@ -10,3 +10,5 @@ class Solution {
         return (x & (x + 1)) == 0;
     }
 }
+
+
