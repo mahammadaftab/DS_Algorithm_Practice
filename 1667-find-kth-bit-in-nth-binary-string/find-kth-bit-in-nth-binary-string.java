@@ -28,4 +28,3 @@ class Solution {
         return (bit == '0') ? '1' : '0';
     }
 }
-
