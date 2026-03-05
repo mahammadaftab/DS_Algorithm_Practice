@@ -18,3 +18,4 @@ class Solution {
         return Math.min(count, n - count);
     }
 }
+
