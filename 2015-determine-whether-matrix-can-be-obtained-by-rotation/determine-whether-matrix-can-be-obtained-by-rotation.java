@@ -28,4 +28,3 @@ class Solution {
         return validRotations[0] || validRotations[1] || validRotations[2] || validRotations[3];
     }
 }
-
