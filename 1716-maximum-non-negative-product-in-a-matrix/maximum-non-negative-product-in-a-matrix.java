@@ -51,4 +51,3 @@ class Solution {
         return (int) (ans % 1_000_000_007);
     }
 }
-
