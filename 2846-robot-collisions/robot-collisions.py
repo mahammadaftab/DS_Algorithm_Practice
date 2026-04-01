@@ -40,4 +40,3 @@ class Solution:
         stack.sort(key=lambda x: x[3])
         
         return [robot[1] for robot in stack]
-
