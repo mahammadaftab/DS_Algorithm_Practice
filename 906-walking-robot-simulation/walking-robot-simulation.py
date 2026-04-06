@@ -31,3 +31,4 @@ class Solution:
                     max_dist_sq = max(max_dist_sq, x*x + y*y)
                     
         return max_dist_sq
+
