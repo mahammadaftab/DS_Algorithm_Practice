@@ -41,3 +41,4 @@ class Robot:
             return "West"
         else:
             return "South"
+
