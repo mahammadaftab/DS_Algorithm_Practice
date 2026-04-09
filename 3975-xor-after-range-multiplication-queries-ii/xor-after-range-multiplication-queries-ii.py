@@ -52,3 +52,4 @@ class Solution:
             ans ^= final_val
             
         return ans
+
