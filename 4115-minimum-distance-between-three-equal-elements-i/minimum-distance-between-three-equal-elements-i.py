@@ -21,3 +21,4 @@ class Solution:
                 first[val] = i
                 
         return min_dist if min_dist != float('inf') else -1
+
