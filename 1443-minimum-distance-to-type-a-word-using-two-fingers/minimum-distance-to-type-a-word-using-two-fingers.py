@@ -26,4 +26,3 @@ class Solution:
             return min(opt1, opt2)
         
         return solve(0, 26)
-
