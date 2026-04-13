@@ -8,3 +8,4 @@ class Solution:
                 min_dist = min(min_dist, abs(i - start))
                 
         return min_dist
+
