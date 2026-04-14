@@ -27,3 +27,4 @@ class Solution:
                 dp[i] = min(dp[i], dp[i - 1] + abs(robot[i - 1] - factory_pos))
                 
         return dp[n]
+
