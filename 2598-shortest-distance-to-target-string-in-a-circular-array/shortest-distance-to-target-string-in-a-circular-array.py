@@ -17,3 +17,4 @@ class Solution:
                 min_dist = min(min_dist, shortest_to_this)
                 
         return min_dist if min_dist != float('inf') else -1
+
