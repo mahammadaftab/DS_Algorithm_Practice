@@ -34,3 +34,4 @@ class Solution:
                 
         # 3. Answer queries instantly in O(1) time
         return [min_dist[q] for q in queries]
+
