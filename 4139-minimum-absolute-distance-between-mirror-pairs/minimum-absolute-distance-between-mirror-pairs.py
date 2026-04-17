@@ -14,3 +14,4 @@ class Solution:
             pos[rev_num] = j
             
         return min_dist if min_dist != float('inf') else -1
+
