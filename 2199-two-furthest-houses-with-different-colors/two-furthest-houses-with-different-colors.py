@@ -16,4 +16,3 @@ class Solution:
                 break # We found the furthest, stop scanning
                 
         return max_dist
-
