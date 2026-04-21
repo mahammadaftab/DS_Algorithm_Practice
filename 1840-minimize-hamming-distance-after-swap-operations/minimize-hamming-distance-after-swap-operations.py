@@ -47,3 +47,4 @@ class Solution:
                 hamming_distance += 1
                 
         return hamming_distance
+
