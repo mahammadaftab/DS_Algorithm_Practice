@@ -20,3 +20,4 @@ class Solution:
                     break # Stop checking this query against the rest of the dictionary
                     
         return ans
+
