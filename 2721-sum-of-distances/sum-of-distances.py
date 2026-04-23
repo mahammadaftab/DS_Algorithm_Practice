@@ -37,3 +37,4 @@ class Solution:
                 left_sum += curr_idx
                 
         return ans
+
