@@ -50,4 +50,3 @@ class Solution:
                         queue.append((nr, nc))
                         
         return False
-
