@@ -20,3 +20,4 @@ class Solution:
             ops += abs(num - median) // x
             
         return ops
+
