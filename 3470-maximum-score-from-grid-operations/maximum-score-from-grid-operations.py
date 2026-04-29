@@ -63,3 +63,4 @@ class Solution:
             
         # The answer is the maximum configuration at the final column
         return max(max(row) for row in dp)
+
