@@ -41,4 +41,3 @@ class Solution:
         # The answer is the maximum score at the destination cell across any valid cost
         ans = max(dp[n - 1])
         return ans if ans != -1 else -1
-
