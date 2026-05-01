@@ -14,3 +14,4 @@ class Solution:
             max_f = max(max_f, curr_f)
             
         return max_f
+
