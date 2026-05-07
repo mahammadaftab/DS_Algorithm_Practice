@@ -24,3 +24,4 @@ class Solution:
             suf_min = min(suf_min, nums[i])
             
         return ans
+
