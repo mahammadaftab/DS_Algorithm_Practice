@@ -11,4 +11,3 @@ class Solution:
 
         # Alternative 1-liner:
         # return [int(digit) for num in nums for digit in str(num)]
-
