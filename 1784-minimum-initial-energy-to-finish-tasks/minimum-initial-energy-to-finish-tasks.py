@@ -17,4 +17,3 @@ class Solution:
             current_energy -= actual
             
         return total_initial_energy
-
