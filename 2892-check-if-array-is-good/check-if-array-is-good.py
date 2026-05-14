@@ -12,4 +12,3 @@ class Solution:
                 
         # Check the final duplicate maximum element
         return nums[-1] == n
-
