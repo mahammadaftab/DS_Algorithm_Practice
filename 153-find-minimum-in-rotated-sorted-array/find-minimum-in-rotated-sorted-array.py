@@ -15,4 +15,3 @@ class Solution:
                 
         # left and right converge on the minimum element
         return nums[left]
-
