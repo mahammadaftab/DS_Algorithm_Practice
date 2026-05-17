@@ -29,3 +29,4 @@ class Solution:
                 
         # If the queue empties and we haven't found 0, it's unreachable
         return False
+
