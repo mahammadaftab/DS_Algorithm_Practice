@@ -13,3 +13,4 @@ class Solution:
                 
         # If we exhaust either array, there are no common elements
         return -1
+
