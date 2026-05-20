@@ -22,3 +22,4 @@ class Solution:
             ans.append(common_count)
             
         return ans
+
