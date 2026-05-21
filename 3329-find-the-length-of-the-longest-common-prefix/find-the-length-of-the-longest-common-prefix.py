@@ -20,4 +20,3 @@ class Solution:
                 num //= 10
                 
         return max_len
-
