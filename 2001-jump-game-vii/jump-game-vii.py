@@ -26,4 +26,3 @@ class Solution:
                 dp[i] = True
                 
         return dp[n - 1]
-
