@@ -49,4 +49,4 @@ class Solution:
             # The node we ended on holds the pre-calculated best index
             ans.append(curr.best_word_index)
             
-        return ans
+        return ans 
