@@ -50,3 +50,4 @@ class Solution:
             ans.append(curr.best_word_index)
             
         return ans
+
