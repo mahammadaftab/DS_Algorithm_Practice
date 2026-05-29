@@ -16,4 +16,3 @@ class Solution:
                 min_element = digit_sum
                 
         return min_element
-
