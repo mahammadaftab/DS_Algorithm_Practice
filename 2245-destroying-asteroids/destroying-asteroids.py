@@ -11,4 +11,3 @@ class Solution:
             mass += asteroid
             
         return True
-
