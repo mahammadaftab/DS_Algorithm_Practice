@@ -12,4 +12,3 @@ class Solution:
             total_cost += cost[i]
             
         return total_cost
-
