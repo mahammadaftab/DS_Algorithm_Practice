@@ -19,4 +19,3 @@ class Solution:
         
         # Return the minimum total finish time among both sequences
         return min(land_then_water, water_then_land)
-
