@@ -48,3 +48,4 @@ class Solution:
         plan_b = solve_one_direction(waterStartTime, waterDuration, landStartTime, landDuration)
         
         return min(plan_a, plan_b)
+
