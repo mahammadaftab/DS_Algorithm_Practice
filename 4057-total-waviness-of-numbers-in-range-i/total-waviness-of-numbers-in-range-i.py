@@ -21,4 +21,3 @@ class Solution:
                     total_waviness += 1
                     
         return total_waviness
-
