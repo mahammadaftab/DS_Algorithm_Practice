@@ -83,4 +83,3 @@ class Solution:
         ans_num1 = solve(num1_minus_1) if num1 > 0 else 0
         
         return ans_num2 - ans_num1
-
