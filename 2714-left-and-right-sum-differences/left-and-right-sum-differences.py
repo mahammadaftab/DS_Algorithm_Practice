@@ -15,3 +15,4 @@ class Solution:
             left_sum += num
             
         return answer
+
