@@ -34,4 +34,3 @@ class Solution:
                 return nodes[parent]
                 
         return None
-
