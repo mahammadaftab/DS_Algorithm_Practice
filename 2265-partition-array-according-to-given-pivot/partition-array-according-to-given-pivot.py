@@ -15,4 +15,3 @@ class Solution:
                 
         # Combine the buckets together in the correct sequence
         return less + equal + greater
-
