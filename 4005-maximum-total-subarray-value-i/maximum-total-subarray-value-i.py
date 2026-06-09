@@ -6,4 +6,3 @@ class Solution:
         
         # We pick the best possible subarray k times
         return (global_max - global_min) * k
-
