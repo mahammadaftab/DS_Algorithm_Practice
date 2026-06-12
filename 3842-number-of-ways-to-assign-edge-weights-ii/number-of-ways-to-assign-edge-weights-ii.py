@@ -71,5 +71,3 @@ class Solution:
                 ans.append(pow(2, k - 1, MOD))
                 
         return ans
-
-        
