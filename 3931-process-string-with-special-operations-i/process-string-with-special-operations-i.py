@@ -19,3 +19,4 @@ class Solution:
                 result.reverse()
                 
         return "".join(result)
+        
