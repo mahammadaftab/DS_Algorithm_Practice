@@ -51,4 +51,3 @@ class Solution:
                     k = curr_len - 1 - k
                     
         return '.'
-        
