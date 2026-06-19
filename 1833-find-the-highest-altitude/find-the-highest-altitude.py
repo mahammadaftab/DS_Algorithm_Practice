@@ -11,3 +11,4 @@ class Solution:
                 max_altitude = current_altitude
                 
         return max_altitude
+        
